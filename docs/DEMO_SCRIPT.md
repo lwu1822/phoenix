@@ -28,9 +28,9 @@ the completed benchmark view.
 ## 0:40–1:05 — Learned scheduler
 
 **Say:** "The key tradeoff is draft length. Too short misses potential
-parallelism; too long wastes guesses. Our lightweight bandit measures the
-reward after each step, explores candidate lengths, and learns the best setting
-online."
+parallelism; too long wastes guesses. Our epsilon-greedy bandit chooses between
+two, four, six, and eight draft tokens, using output tokens per second as its
+reward. It starts with 0.3 exploration and decays that exploration online."
 
 **Show:** `bandit_convergence.png`.
 
@@ -40,16 +40,16 @@ strong preference but also tells us we need a longer learning window."
 
 ## 1:05–1:30 — Fine-tuning and results
 
-**Say:** "We also fine-tuned the draft model on Veri so its Python guesses align
-more often with the target model."
+**Say:** "Through Veri, Qwen3-1.7B answered 500 MBPP training prompts, and we
+fine-tuned Qwen3-0.6B for one epoch on an L4. The resulting model is
+phoenix-qwen3-0.6b-mbpp."
 
 **Show:** `benchmark.png`, then the results table.
 
 **Say:** "The learned scheduler improves throughput by 4.9 percent and cuts p95
 latency by 19.3 percent versus fixed speculation. It does not beat target-only
-decoding yet, which tells us exactly where to focus: reducing draft overhead
-and raising acceptance with the fine-tuned model. The fine-tuned benchmark is
-still [TODO: pending or insert measured result]."
+decoding yet, which tells us exactly where to focus. Our next run benchmarks
+the fine-tuned draft, adds a no-draft bandit arm, and uses a larger target."
 
 ## 1:30–1:52 — Sentry evidence
 

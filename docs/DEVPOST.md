@@ -16,9 +16,9 @@ Phoenix asks a practical question: can a small model cheaply predict several
 tokens ahead, let the larger model verify them together, and automatically
 choose how far ahead to predict?
 
-Our target model is Qwen3-1.7B. We evaluate Phoenix on a held-out set of 50
-Python programming questions, separated from 500 training prompts with a fixed
-seed and no duplicate prompts across the splits.
+Our target model is Qwen3-1.7B. We shuffled the full MBPP dataset with seed 42,
+using 500 prompts for training and 50 held-out prompts for evaluation with no
+overlap.
 
 ## How speculative decoding works
 
@@ -39,11 +39,12 @@ The best draft length depends on the prompt, model, and hardware. A fixed value
 cannot adapt when acceptance behavior changes, so Phoenix treats candidate
 draft lengths as choices in a lightweight bandit.
 
-After each generation step, the scheduler observes the reward
-([TODO: exact reward formula, such as verified tokens per millisecond]) and
-updates its estimate for the chosen draft length. It explores alternatives
-early, then increasingly chooses the setting that produces the best measured
-throughput. This keeps adaptation cheap enough to remain in the serving loop.
+Phoenix uses an epsilon-greedy bandit over draft lengths `{2, 4, 6, 8}`. Its
+reward is output tokens per second. Epsilon starts at 0.3 and decays during the
+run, balancing early exploration with increasingly frequent use of the
+best-observed arm. [TODO: insert the exact decay expression and arm-value update
+from `phoenix.ipynb` once that notebook is added to the repository.] This keeps
+adaptation cheap enough to remain in the serving loop.
 
 In our 50-request run, the scheduler selected four draft tokens for 43 requests,
 including 18 of the final 20. It still explored two tokens on the final two
@@ -53,15 +54,21 @@ which is a useful reason to run a longer learning phase.
 
 ## Fine-tuning the draft model on Veri
 
-A draft model helps only when its guesses match the target model. We fine-tuned
-the draft model on Veri using [TODO: exact Veri subset/configuration], formatted
-as [TODO: prompt/response or token-training format]. Training used [TODO]
-examples for [TODO] epochs with [TODO: key hyperparameters].
+A draft model helps only when its guesses match the target model. Through Veri,
+we shuffled the full MBPP dataset with seed 42 and split it into 500 training
+and 50 held-out prompts. Qwen3-1.7B acted as the teacher, answering all 500
+training prompts with temperature 0, a 256-token output limit, and thinking
+disabled.
 
-This makes the inexpensive model more familiar with the Python coding patterns
-seen by the server. Compared with the stock draft, the fine-tuned model changed
-acceptance rate from [TODO]% to [TODO]% and throughput from [TODO] to [TODO]
-tokens/sec in [TODO: mode/workload].
+We then supervised-fine-tuned Qwen3-0.6B for one epoch on a single NVIDIA L4 on
+AWS. The job ID is `1a524a15352e`, and the output model is
+`lwu1822/phoenix-qwen3-0.6b-mbpp`. [TODO: add the remaining optimizer, learning
+rate, sequence length, and related settings from `train.toml` once it is added
+to the repository.] Teacher deployments cost $0.36, and training was estimated
+at approximately $1.75.
+
+Fine-tuned acceptance, throughput, and latency results are still pending and
+will be added without inferring them from the stock-model benchmark.
 
 ## How Sentry shaped Phoenix
 
@@ -87,10 +94,11 @@ monitoring claims; fill them from the final dashboard and trace screenshots.
 
 ## Results
 
-All numbers below come from [TODO: hardware], using 50 requests with up to 200
-new tokens per request, [TODO] warm-up requests, and one reported benchmark
-run. The target is Qwen3-1.7B, the stock draft is Qwen3-0.6B, and Transformers
-4.57.6 was used. P95 is end-to-end request latency.
+All numbers below come from one Google Colab NVIDIA T4 in fp16 with a batch size
+of one. Each mode used one warm-up followed by one benchmark run over 50
+held-out MBPP prompts, greedy decoding, thinking disabled, and up to 200 new
+tokens per prompt. The target is Qwen3-1.7B, the stock draft is Qwen3-0.6B, and
+Transformers 4.57.6 was used. P95 is end-to-end request latency.
 
 | Mode                   | Draft model | Tokens/sec | P95 latency (ms) | Acceptance rate |
 | ---------------------- | ----------- | ---------: | ---------------: | --------------: |
@@ -110,6 +118,11 @@ pending and are not inferred from this stock-model run.
 
 ## What's next
 
+- Benchmark the fine-tuned MBPP draft under the same protocol.
+- Add a no-draft arm so the bandit can bypass speculation when its overhead is
+  higher than target-only decoding.
+- Repeat the experiment with a larger target model, where verification has more
+  opportunity to amortize target-model work.
 - Condition the scheduler on prompt length, recent acceptance, and hardware
   load rather than learning one global draft length.
 - Batch verification across concurrent requests and evaluate under sustained
@@ -117,5 +130,4 @@ pending and are not inferred from this stock-model run.
 - Expand fine-tuning and evaluation beyond Python while keeping language- and
   domain-specific scheduler policies.
 - Add safe rollback when acceptance or latency drifts, driven by Sentry alerts.
-- Test larger target models and additional draft-model sizes to map where the
-  speculative speedup is greatest.
+- Finish the Sentry dashboard and screenshots after resolving the DSN issue.
