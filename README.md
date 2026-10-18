@@ -8,6 +8,15 @@ The current benchmark uses Qwen3-0.6B as the stock draft model and Qwen3-1.7B
 as the target. The target remains authoritative: drafted tokens are accepted
 only when verified by the target model.
 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5a93a884-42b9-49d2-9314-8fdbe9e0fa57" />
+
+
+<img width="1875" height="992" alt="image" src="https://github.com/user-attachments/assets/53cf55eb-13d7-4555-afb9-d749d212bd5b" />
+
+
+
+
 ## Current benchmark
 
 Fifty requests were run per mode, with up to 200 new tokens per request.
