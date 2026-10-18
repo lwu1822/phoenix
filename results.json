@@ -1,0 +1,35 @@
+{
+  "draft_model": "Qwen/Qwen3-0.6B",
+  "target_model": "Qwen/Qwen3-1.7B",
+  "max_new_tokens": 200,
+  "transformers_version": "4.57.6",
+  "modes": {
+    "target": {
+      "mean_latency_s": 9.262390855899994,
+      "p50_latency_s": 9.245540061999918,
+      "p95_latency_s": 9.536088523599869,
+      "tokens_per_second": 21.55167095683997,
+      "acceptance_rate": null,
+      "requests": 50,
+      "speedup": 1.0
+    },
+    "fixed_4": {
+      "mean_latency_s": 13.323323357440023,
+      "p50_latency_s": 12.806382211500136,
+      "p95_latency_s": 17.749434700349866,
+      "tokens_per_second": 14.982748271175751,
+      "acceptance_rate": 0.6997334912644358,
+      "requests": 50,
+      "speedup": 0.6952012352629482
+    },
+    "bandit": {
+      "mean_latency_s": 12.696791433659982,
+      "p50_latency_s": 12.752026900499914,
+      "p95_latency_s": 14.322136083149848,
+      "tokens_per_second": 15.722082310558791,
+      "acceptance_rate": 0.6895475819032761,
+      "requests": 50,
+      "speedup": 0.7295064193418835
+    }
+  }
+}

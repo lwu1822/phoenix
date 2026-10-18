@@ -1,8 +1,9 @@
 # Phoenix
 
-Phoenix is a faster LLM inference server that uses speculative decoding and a
-learned scheduler to reduce response time without changing the output of the
-larger model.
+Phoenix is an experimental LLM inference server that combines speculative
+decoding with a learned scheduler. It tests whether automatically choosing how
+far a small model drafts can reduce response time without changing which model
+controls the output.
 
 ## Problem
 
@@ -44,8 +45,11 @@ updates its estimate for the chosen draft length. It explores alternatives
 early, then increasingly chooses the setting that produces the best measured
 throughput. This keeps adaptation cheap enough to remain in the serving loop.
 
-In our run, the scheduler settled around [TODO] draft tokens after approximately
-[TODO] requests.
+In our 50-request run, the scheduler selected four draft tokens for 43 requests,
+including 18 of the final 20. It still explored two tokens on the final two
+requests, so this short run shows a strong preference for four rather than
+definitive convergence. Those two-token trials had the highest observed reward,
+which is a useful reason to run a longer learning phase.
 
 ## Fine-tuning the draft model on Veri
 
@@ -83,21 +87,26 @@ monitoring claims; fill them from the final dashboard and trace screenshots.
 
 ## Results
 
-All numbers below come from [TODO: hardware], using [TODO] prompts, [TODO]
-generated tokens per prompt, [TODO] warm-up requests, and [TODO] measured runs.
-P95 is end-to-end request latency.
+All numbers below come from [TODO: hardware], using 50 requests with up to 200
+new tokens per request, [TODO] warm-up requests, and one reported benchmark
+run. The target is Qwen3-1.7B, the stock draft is Qwen3-0.6B, and Transformers
+4.57.6 was used. P95 is end-to-end request latency.
 
-| Mode | Draft model | Tokens/sec | P95 latency (ms) | Acceptance rate |
-| --- | --- | ---: | ---: | ---: |
-| No draft | N/A | [TODO] | [TODO] | N/A |
-| Fixed draft | Stock | [TODO] | [TODO] | [TODO]% |
-| Fixed draft | Fine-tuned | [TODO] | [TODO] | [TODO]% |
-| Learned bandit | Stock | [TODO] | [TODO] | [TODO]% |
-| Learned bandit | Fine-tuned | [TODO] | [TODO] | [TODO]% |
+| Mode                   | Draft model | Tokens/sec | P95 latency (ms) | Acceptance rate |
+| ---------------------- | ----------- | ---------: | ---------------: | --------------: |
+| No draft               | N/A         |      21.55 |            9,536 |             N/A |
+| Fixed draft (4 tokens) | Stock       |      14.98 |           17,749 |          69.97% |
+| Fixed draft            | Fine-tuned  |     [TODO] |           [TODO] |         [TODO]% |
+| Learned bandit         | Stock       |      15.72 |           14,322 |          68.95% |
+| Learned bandit         | Fine-tuned  |     [TODO] |           [TODO] |         [TODO]% |
 
-Our best configuration delivered [TODO]x throughput and reduced p95 latency by
-[TODO]% versus no drafting. Do not fill these headline values until the final
-benchmark run is complete.
+The learned scheduler improved throughput by 4.9% and reduced p95 latency by
+19.3% compared with the fixed-four speculative configuration. The current
+prototype did not yet beat target-only decoding: learned speculation was 27.0%
+lower in throughput and had 50.2% higher p95 latency. That result is important,
+not something to hide—it points directly to draft-model quality and speculative
+loop overhead as the next optimization targets. Fine-tuned-draft results remain
+pending and are not inferred from this stock-model run.
 
 ## What's next
 

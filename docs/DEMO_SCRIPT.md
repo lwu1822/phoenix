@@ -18,8 +18,9 @@ modes: no draft, a fixed draft length, and our learned bandit."
 side by side. Point to tokens/sec and latency.
 
 **Say:** "The large model still verifies every accepted token, so the draft
-model improves speed without becoming the authority over the output. On this
-request, Phoenix reaches [TODO] tokens per second versus [TODO] with no draft."
+model never becomes the authority over the output. Across our first 50-request
+benchmark, the learned scheduler reached 15.72 tokens per second versus 14.98
+for a fixed-four-token draft."
 
 If the live request is slow, switch immediately to a pre-recorded response or
 the completed benchmark view.
@@ -33,8 +34,9 @@ online."
 
 **Show:** `bandit_convergence.png`.
 
-**Say:** "Here it explores at the start, then settles around [TODO] draft
-tokens after about [TODO] requests."
+**Say:** "It selected four draft tokens on 43 of 50 requests, including 18 of
+the last 20. The final two requests explore a two-token arm, so this run shows a
+strong preference but also tells us we need a longer learning window."
 
 ## 1:05–1:30 — Fine-tuning and results
 
@@ -43,9 +45,11 @@ more often with the target model."
 
 **Show:** `benchmark.png`, then the results table.
 
-**Say:** "Our best setup is [TODO]. It achieves [TODO] tokens per second,
-[TODO]x the no-draft baseline, with p95 latency of [TODO] milliseconds. The
-fine-tuned draft changes acceptance from [TODO]% to [TODO]%."
+**Say:** "The learned scheduler improves throughput by 4.9 percent and cuts p95
+latency by 19.3 percent versus fixed speculation. It does not beat target-only
+decoding yet, which tells us exactly where to focus: reducing draft overhead
+and raising acceptance with the fine-tuned model. The fine-tuned benchmark is
+still [TODO: pending or insert measured result]."
 
 ## 1:30–1:52 — Sentry evidence
 
@@ -66,7 +70,8 @@ online learning to make inference adapt instead of relying on one magic
 constant. Next, we’ll condition the scheduler on workload and scale it to
 batched, larger-model serving."
 
-**Show:** Architecture plus final headline: `[TODO]x faster`.
+**Show:** Architecture plus final headline: `Adaptive drafting: +4.9%
+throughput vs. fixed drafting`.
 
 ## Recording checklist
 

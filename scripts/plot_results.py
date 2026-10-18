@@ -4,7 +4,7 @@
 import argparse
 import csv
 import json
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from statistics import mean
 
@@ -34,6 +34,28 @@ def normalize(value: object) -> str:
 def load_results(path: Path) -> list[dict]:
     with path.open(encoding="utf-8") as source:
         payload = json.load(source)
+
+    if isinstance(payload, dict) and isinstance(payload.get("modes"), dict):
+        parsed = []
+        for name, metrics in payload["modes"].items():
+            if name == "target":
+                mode, model = "no_draft", "none"
+            elif name.startswith("fixed"):
+                mode, model = "fixed_draft", "stock"
+            elif name == "bandit":
+                mode, model = "learned_bandit", "stock"
+            else:
+                raise ValueError(f"Unknown benchmark mode: {name}")
+            parsed.append(
+                {
+                    "mode": mode,
+                    "model": model,
+                    "tokens_per_sec": float(metrics["tokens_per_second"]),
+                    "p95_latency_ms": float(metrics["p95_latency_s"]) * 1_000,
+                }
+            )
+        return parsed
+
     rows = payload["results"] if isinstance(payload, dict) and "results" in payload else payload
     if not isinstance(rows, list):
         raise ValueError("results.json must be a list or contain a 'results' list")
@@ -82,23 +104,37 @@ def plot_benchmarks(results_path: Path, output_path: Path) -> None:
     width = 0.34
     fig, axes = plt.subplots(1, 2, figsize=(12, 5.4), constrained_layout=True)
 
-    for model_index, model in enumerate(models):
-        positions = [position + (model_index - (len(models) - 1) / 2) * width for position in x]
-        for axis, metric, ylabel in (
-            (axes[0], "tokens_per_sec", "Tokens / second (higher is better)"),
-            (axes[1], "p95_latency_ms", "P95 latency, ms (lower is better)"),
-        ):
-            values = [data.get((mode, model), {}).get(metric, float("nan")) for mode in MODES]
+    for axis, metric, ylabel in (
+        (axes[0], "tokens_per_sec", "Tokens / second (higher is better)"),
+        (axes[1], "p95_latency_ms", "P95 latency, ms (lower is better)"),
+    ):
+        baseline = next(
+            metrics[metric] for (mode, _), metrics in data.items() if mode == "no_draft"
+        )
+        baseline_bar = axis.bar(
+            x[0], baseline, width, color="#334E58", label="Target only", zorder=3
+        )
+        axis.bar_label(baseline_bar, fmt="%.1f", padding=3, fontsize=9)
+
+        for model_index, model in enumerate(models):
+            positions = [
+                position + (model_index - (len(models) - 1) / 2) * width
+                for position in x[1:]
+            ]
+            values = [
+                data.get((mode, model), {}).get(metric, float("nan")) for mode in MODES[1:]
+            ]
             bars = axis.bar(
                 positions,
                 values,
                 width,
                 color=colors[model],
                 label=MODEL_LABELS[model],
+                zorder=3,
             )
             axis.bar_label(bars, fmt="%.1f", padding=3, fontsize=9)
-            axis.set_ylabel(ylabel)
-            axis.grid(axis="y", alpha=0.22)
+        axis.set_ylabel(ylabel)
+        axis.grid(axis="y", alpha=0.22, zorder=0)
 
     for axis in axes:
         axis.set_xticks(x, [MODE_LABELS[mode] for mode in MODES])
@@ -124,9 +160,11 @@ def plot_bandit(csv_path: Path, output_path: Path, window: int) -> None:
     with csv_path.open(encoding="utf-8", newline="") as source:
         reader = csv.DictReader(source)
         fieldnames = reader.fieldnames or []
-        step_column = find_column(fieldnames, ("step", "iteration", "request", "round"))
+        step_column = find_column(
+            fieldnames, ("step", "iteration", "request", "request_number", "round")
+        )
         setting_column = find_column(
-            fieldnames, ("draft_tokens", "chosen_draft_tokens", "setting", "action")
+            fieldnames, ("draft_tokens", "chosen_draft_tokens", "setting", "action", "arm")
         )
         rows = list(reader)
 
@@ -134,6 +172,7 @@ def plot_bandit(csv_path: Path, output_path: Path, window: int) -> None:
     settings = [float(row[setting_column]) for row in rows]
     if not steps:
         raise ValueError("Bandit CSV is empty")
+    most_common_setting, most_common_count = Counter(settings).most_common(1)[0]
 
     fig, axis = plt.subplots(figsize=(10.5, 5.2), constrained_layout=True)
     axis.step(steps, settings, where="post", color="#E9A23B", alpha=0.42, label="Chosen setting")
@@ -144,11 +183,19 @@ def plot_bandit(csv_path: Path, output_path: Path, window: int) -> None:
         linewidth=2.6,
         label=f"{window}-request rolling mean",
     )
+    axis.axhline(
+        most_common_setting,
+        color="#334E58",
+        linestyle="--",
+        linewidth=1.4,
+        label=f"Most selected: {most_common_setting:g} ({most_common_count}/{len(settings)})",
+    )
     axis.set(
-        title="Learned scheduler converges on a draft length",
+        title="Bandit draft-length choices",
         xlabel="Inference request",
         ylabel="Draft tokens selected",
     )
+    axis.set_yticks(sorted(set(settings)))
     axis.grid(alpha=0.22)
     axis.spines[["top", "right"]].set_visible(False)
     axis.legend(frameon=False)
@@ -159,9 +206,9 @@ def plot_bandit(csv_path: Path, output_path: Path, window: int) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--results", type=Path, default=Path("results.json"))
-    parser.add_argument("--bandit-csv", type=Path, default=Path("bandit.csv"))
+    parser.add_argument("--bandit-csv", type=Path, default=Path("bandit_log.csv"))
     parser.add_argument("--output-dir", type=Path, default=Path("charts"))
-    parser.add_argument("--rolling-window", type=int, default=25)
+    parser.add_argument("--rolling-window", type=int, default=10)
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
 

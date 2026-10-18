@@ -3,11 +3,35 @@
 Run:
 
 ```bash
-python3 -m pip install matplotlib
-python3 scripts/plot_results.py --results results.json --bandit-csv bandit.csv
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/plot_results.py \
+  --results results.json \
+  --bandit-csv bandit_log.csv
 ```
 
-`results.json` may be a JSON list or an object with a `results` list:
+The plotter directly accepts the server's nested benchmark output:
+
+```json
+{
+  "modes": {
+    "target": {
+      "tokens_per_second": 21.5,
+      "p95_latency_s": 9.5
+    },
+    "fixed_4": {
+      "tokens_per_second": 15.0,
+      "p95_latency_s": 17.7
+    },
+    "bandit": {
+      "tokens_per_second": 15.7,
+      "p95_latency_s": 14.3
+    }
+  }
+}
+```
+
+It also accepts a JSON list or an object with a `results` list:
 
 ```json
 [
@@ -39,5 +63,6 @@ step,draft_tokens
 2,4
 ```
 
-Accepted index aliases are `iteration`, `request`, and `round`. Accepted setting
-aliases are `chosen_draft_tokens`, `setting`, and `action`.
+Accepted index aliases are `iteration`, `request`, `request_number`, and
+`round`. Accepted setting aliases are `chosen_draft_tokens`, `setting`,
+`action`, and `arm`.
