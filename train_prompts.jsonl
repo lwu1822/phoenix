@@ -1,500 +1,500 @@
-{"prompt": "Create a Python script to generate a randomly generated password of 8 characters."}
-{"prompt": "Write a Python program to extract the email address from a given string."}
-{"prompt": "Create a new Python list containing the square of the values in the given list."}
-{"prompt": "Construct a python script to display the frequency of each words appearing in a document"}
-{"prompt": "Develop a Python program for solving a quadratic equation."}
-{"prompt": "Write a function to find number of odd elements in the given list using lambda function."}
-{"prompt": "Design a Python program to convert all the lowercase letters to their corresponding uppercase letters in a given string."}
-{"prompt": "Generate a Python program to convert a given temperature from Fahrenheit to Celsius."}
-{"prompt": "Construct a mini-search engine in Python using regular expressions."}
-{"prompt": "Design an algorithm in Python to find the second smallest number in an array."}
-{"prompt": "Write a Python program to filter a list of strings and only return strings with two or more words."}
-{"prompt": "Write a Python program to detect duplicate values in a list."}
-{"prompt": "Write a Python function to pass a number as a parameter and generate a table of the given size."}
-{"prompt": "Generate a Python script to assign grades to a set of test scores."}
-{"prompt": "Write a Python program that takes a given number and prints out the numbers from 1 to the given number. If a number is divisible by 3, add the word “fizz”. If a number is divisible by 5, add the word “buzz”."}
-{"prompt": "Generate a Python program to sort a list of strings alphabetically."}
-{"prompt": "Modify the following Python program to explore and retrieve data from a dataset using Pandas."}
-{"prompt": "Create an algorithm in Python to print the numbers from 1 to n in increasing order, except for any numbers which are divisible by 3 should be printed as \"Fizz\"."}
-{"prompt": "Construct a basic class in Python for a Rectangle with two methods to calculate its area and perimeter."}
-{"prompt": "Create a Python class called Rectangle to represent a two-dimensional rectangle with a length and width."}
-{"prompt": "Create a Python program to calculate the area of a circle, given the radius."}
-{"prompt": "Develop a loop in Python to generate a dictionary of all numbers below 1000 that are divisible by 7."}
-{"prompt": "Create a K Nearest Neighbors classifier using scikit-learn in Python."}
-{"prompt": "Edit the following program written in Python in order to remove None from the list."}
-{"prompt": "Implement a sorting algorithm in Python to sort a list of integers."}
-{"prompt": "Create an error-handling system for a Python web application."}
-{"prompt": "Write a python function to calculate the number of odd days in a given year."}
-{"prompt": "Write a Python program to sort a list according to a given order of letters."}
-{"prompt": "Write a Python class for representing a tree node."}
-{"prompt": "Can you write a Python program to take a list and create a new list with unique elements of the first list?"}
-{"prompt": "Create a script to set up a development environment for python."}
-{"prompt": "Create a python program to print out the top 10 coins listed on CoinMarketCap."}
-{"prompt": "Generate a Python script to print the numbers from 1 to 10 in reverse order."}
-{"prompt": "Create a function in Python that takes in an array of integers, and returns a new array with all the elements in the original array multiplied by two."}
-{"prompt": "Create a function to compute the maximum of two numbers in Python."}
-{"prompt": "Develop a Python script that receives two lists and returns a new list that contains a unique combination of all elements in the two lists."}
-{"prompt": "Write a function to search an element in the given array by using sequential search."}
-{"prompt": "Develop a Python program to sort a given list of strings by length"}
-{"prompt": "Calculate the average of a list of numbers using a Python function."}
-{"prompt": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n)."}
-{"prompt": "Create a heap data structure in Python using the heapq library."}
-{"prompt": "Convert the following Python function to Java."}
-{"prompt": "How would you construct a loop in Python to iterate over a list?"}
-{"prompt": "Create an AWS Lambda function in Python to make an HTTP request using the requests library."}
-{"prompt": "Create a Python program that takes an array of numbers and returns the index of the first number that is the duplicate of an earlier encountered number."}
-{"prompt": "Generate a Python class that represents a Rectangle and a Square."}
-{"prompt": "Create a python program to wrap a given text at a maximum of 80 characters."}
-{"prompt": "Write a python program to generate a random letter of the alphabet."}
-{"prompt": "Convert the given code from one programming language to another."}
-{"prompt": "Create a Python program for performing a linear search on a given array of values."}
-{"prompt": "Write a python function to find the sum of non-repeated elements in a given array."}
-{"prompt": "Generate a function for calculating the average of a list of numbers in Python."}
-{"prompt": "Write a Python program to generate an SQL query from a given set of parameters."}
-{"prompt": "Generate a solution for finding all possible subsets of a given set in Python."}
-{"prompt": "Optimize a python program that prints out all the even numbers in a list using list comprehension."}
-{"prompt": "Create a Python program that takes a string and returns a new string with the first letter of each word capitalized."}
-{"prompt": "Generate a python program that create a pandas dataframe from a dictionary column."}
-{"prompt": "Create a TextBlob classifier in Python which takes in a string and outputs whether the sentiment of the string is positive or negative."}
-{"prompt": "Construct a python program that prints a multiplication table given two numbers (x and y)."}
-{"prompt": "Write a function to calculate the maximum aggregate from the list of tuples."}
-{"prompt": "Write a function to find average value of the numbers in a given tuple of tuples."}
-{"prompt": "Identify all bugs in the following Python code and suggest fixes."}
-{"prompt": "Generate a Python program that creates a word cloud from a given text."}
-{"prompt": "Create a Python program that takes a string and indicates whether it is a palindrome or not."}
-{"prompt": "Calculate the sum of a given list of integers in Python."}
-{"prompt": "Using the NumPy library in Python, calculate the mean of the following array."}
-{"prompt": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs."}
-{"prompt": "Use automated refactoring to make Python code more readable."}
-{"prompt": "Write a python function to count equal element pairs from the given array."}
-{"prompt": "Write a Python function which takes a number as a parameter and check the number is prime or not."}
-{"prompt": "Generate an array in Python of size 25 containing only prime numbers."}
-{"prompt": "Generate a Python function to execute a valid insertion sort on a given list of integers."}
-{"prompt": "Create a Python script to read a given PDF document."}
-{"prompt": "Compare two lists and extract the common elements of both the lists in Python."}
-{"prompt": "Implement an algorithm in Python that finds the most frequently occuring element in a list."}
-{"prompt": "Create an application in Python that can encode a string into Base64."}
-{"prompt": "Write a subroutine to find the length of a string in Python."}
-{"prompt": "Develop a Python program which uses a sorting algorithm to sort the provided dataset by its second column in ascending order."}
-{"prompt": "Change the code provided in the input so that it is compatible with Python version 3."}
-{"prompt": "Create a program to fetch data from Wikipedia using Python."}
-{"prompt": "Create a new Python script that will print out the following statement: \"Hello, World!\""}
-{"prompt": "Design an algorithm to check if a given number is prime in Python."}
-{"prompt": "Rewrite a given code snippet in Python using a list comprehension."}
-{"prompt": "Create an application in Python which will take an array of numbers and returns the median."}
-{"prompt": "Convert a given sentence to uppercase using Python."}
-{"prompt": "Create a Python script to calculate the average of the three numbers 62, 72, and 85."}
-{"prompt": "Write a Python program to Reverse the word sequence of a given sentence"}
-{"prompt": "Develop a Python function that can detect the spoken language of a user’s input."}
-{"prompt": "Generate a sequence of numbers in Python from 1 to 10 where each number is five times the previous number."}
-{"prompt": "Which python library can be used to access the Twitter API?"}
-{"prompt": "Create a linear search algorithm in Python that returns the index of a target item in the list."}
-{"prompt": "Create a function using Python that parses a given string and returns a dictionary containing each word in the string as key and its frequency as value."}
-{"prompt": "Create a program in Python that takes in a sentence from the user, and reverse the sentence."}
-{"prompt": "Optimize the following python program and reduce its runtime."}
-{"prompt": "Convert the following Python code into equivalent C code."}
-{"prompt": "Develop a code in Python to get the day name for any given date using the standard libraries."}
-{"prompt": "Find the 5 most frequent words in the given text."}
-{"prompt": "Generate a Python program that takes two lists as input and returns a new list containing only the common elements."}
-{"prompt": "Create a class in Python to represent a Person."}
-{"prompt": "Create a Python program to print an encrypted message using a given cipher key."}
-{"prompt": "Create a program in Python to find all pairs of elements in a list with the given difference."}
-{"prompt": "Write a Python program to calculate the area of a regular hexagon"}
-{"prompt": "Convert a given list of integers to a string in Python."}
-{"prompt": "Write a python program that takes in a given list of string and then prints out a list of all the anagrams of those strings."}
-{"prompt": "Generate an HTML <select> element that displays a list of 3 programming languages"}
-{"prompt": "Create a Python function that takes a list and an integer as inputs and returns a new list with every item in the original list multiplied by the integer."}
-{"prompt": "Create a program in Python to count the number of time a particular character appears in a given string."}
-{"prompt": "Create a function in Python that takes two lists of integers and return a list which contains elements present in both the lists."}
-{"prompt": "Write a Python program to query data from a PostgreSQL database."}
-{"prompt": "Create a program in Python to compute the cosine similarity between two given vectors."}
-{"prompt": "Write an algorithm in Python to convert English words to Pig Latin."}
-{"prompt": "Write a Python program to simulate a random walk and calculate the position of the walker after N steps."}
-{"prompt": "Make a Python program that takes a list of strings as input and returns a dictionary whose keys are the strings and values are the length of the string."}
-{"prompt": "Create a Python script that checks whether a given string is a palindrome."}
-{"prompt": "Write a Python function that converts a given number from one numeric base to another."}
-{"prompt": "Can you create a program that reads two numbers from the user and outputs the two numbers in descending order?"}
-{"prompt": "Create a program in Python that takes a number from the user and prints all the divisors of the number."}
-{"prompt": "Generate a function in Python to print the sum of two integers."}
-{"prompt": "Create a Python program to decide whether a given string is a valid JSON or an invalid one."}
-{"prompt": "Write a Python program to analyze the given user input sentences regarding sentiment."}
-{"prompt": "Write a code snippet in Python to print out the contents of a given dictionary."}
-{"prompt": "Generate a Python code that prints the following sequence of characters ( ABCDEFGHIJ )."}
-{"prompt": "Write a function to calculate the discriminant value."}
-{"prompt": "Write a Python function make_float that converts a given string argument to a float."}
-{"prompt": "Write a function in Python that takes two lists as arguments and return all their common elements."}
-{"prompt": "Design a class in Python for representing a student."}
-{"prompt": "Write a Python program to sort a dictionary by values."}
-{"prompt": "Create a Python program to determine whether a given number is prime or not."}
-{"prompt": "Find the maximum of three numbers using a Python function."}
-{"prompt": "Create a method in Python to format a date from the format dd-mm-yyyy to yyyy-mm-dd."}
-{"prompt": "Create a function in Python to count the occurrence of each word in a sentence."}
-{"prompt": "Create a web scraper using Python and BeautifulSoup to extract the prices of a product from an online store"}
-{"prompt": "Write a function to verify validity of a string of parentheses."}
-{"prompt": "Create a Python class called Employee that represents an employee in an organization. The Employee class should have instance attributes for the employee’s name, job title, and job number."}
-{"prompt": "Develop a Python class that stores the details of 10 students of a college and renders them in a tabular format."}
-{"prompt": "Write a Python function that takes two lists as input and returns a new list containing the intersection of the two lists."}
-{"prompt": "Given a Python dictionary, write a function to invert the keys and values of the dictionary."}
-{"prompt": "Convert the following python code into a Java program (15 lines or less)."}
-{"prompt": "Write a Python code to serialize a nested dictionary."}
-{"prompt": "Write a function to find the maximum value in a given heterogeneous list."}
-{"prompt": "Design a program in Python to display the time in a digital format."}
-{"prompt": "Develop a simple Python program to read a text document and output the number of words in it."}
-{"prompt": "Write a Python function to print prime numbers between two given numbers."}
-{"prompt": "Construct a python program to copy an array."}
-{"prompt": "Write a Python program to add two numbers given as input from the user."}
-{"prompt": "Write a Python program that takes a string as input and returns a new string with all vowels removed."}
-{"prompt": "Implement a Stack in Python using the linked list data structure."}
-{"prompt": "Write a function to find the perimeter of a square."}
-{"prompt": "Write a function to shortlist words that are longer than n from a given list of words."}
-{"prompt": "Create a Python function to take two lists and return a list with the elements added together."}
-{"prompt": "Write Python code to create a JSON object from a given list."}
-{"prompt": "Write a function in Python to convert a string of text into separate words in a list."}
-{"prompt": "Create an optimized data structure in Python to store information about a person's profile."}
-{"prompt": "Generate an algorithm in Python to rotate an array of size 'n' by 'd' elements."}
-{"prompt": "Implement a function to merge and sort two given sorted lists in Python."}
-{"prompt": "Create a Python program to find the longest word in a given sentence."}
-{"prompt": "Generate a python program to compute the nth fibonacci number in the sequence."}
-{"prompt": "Create a script in Python to print the squares of all numbers in the given list."}
-{"prompt": "Generate a python code that adds a delimiter string between every list item."}
-{"prompt": "Generate a Python script to validate a given email address."}
-{"prompt": "Name different Python string methods."}
-{"prompt": "Update the Python program to calculate average of given numbers so that it takes an optional parameter. If set to True, the program should print the maximum among the given numbers instead of the average."}
-{"prompt": "Create an API in Python for predicting the sentiment of a given text."}
-{"prompt": "Write a Python function to sort a list of tuples based on their third elements."}
-{"prompt": "Generate a list comprehension in Python for the following operation."}
-{"prompt": "Generate code to print the multiplication tables from 1 to 10 in Python."}
-{"prompt": "Compose a regular expression in Python to find words beginning with a certain letter."}
-{"prompt": "Create a program in Python that uses a machine learning approach to classify a type of data."}
-{"prompt": "Create an Optimizer function in Python to optimize a given function f(x) for x in [-4, 4]."}
-{"prompt": "Write a script in Python to get the largest and smallest number from a given list."}
-{"prompt": "Build a python program that reads in two strings and combines them into a single string."}
-{"prompt": "Write a Python program to convert a list into a dictionary."}
-{"prompt": "Create a function in Python that calculates the sum of all even numbers in a given list"}
-{"prompt": "Write a Python program to remove consecutive sequences of duplicates from the given list"}
-{"prompt": "Using the skeleton code provided, finish the code and make it a valid python script."}
-{"prompt": "Generate a correct python statement to add two given numbers."}
-{"prompt": "Can you modify the given Python program to fetch the top 5 elements in the list?"}
-{"prompt": "Write a Python program to read in a list of words separated by spaces and reverse them in-place."}
-{"prompt": "Write a python function to check whether the given strings are rotations of each other or not."}
-{"prompt": "Create a Python program which prints \"Hello, World!\""}
-{"prompt": "Create a Python function to check if a given number is abundant or not. An abundant number is a number which is less than the sum of its proper divisors."}
-{"prompt": "Write a command line script to calculate the total number of people who attended a concert."}
-{"prompt": "Convert the following program from Java to Python."}
-{"prompt": "Generate a Python program to output the maximum element in a given array."}
-{"prompt": "Generate a Python program to search for a substring within a string."}
-{"prompt": "Design an algorithm in Python that checks whether a given number is a perfect square."}
-{"prompt": "Create a Python program to edit a given string by removing all space characters."}
-{"prompt": "Generate Python code to tokenize the given text."}
-{"prompt": "Create a Python program to remove all whitespaces from a string."}
-{"prompt": "Create a class in Python that can calculate the total price of items."}
-{"prompt": "Convert a given code snippet from Swift to Python."}
-{"prompt": "Debug the following Python code and make it functional (read the instructions for the code)."}
-{"prompt": "Create a Python program that will parse a website and get all the links on the page."}
-{"prompt": "Create a Python program to normalize a given data set."}
-{"prompt": "Generate a Python program to calculate the hypotenuse of a right triangle."}
-{"prompt": "Write a Python script to generate a random password string with length 20 that contains all the characters in the string."}
-{"prompt": "Write a Python script to generate a basic HTML page with a title, header, body, and footer sections."}
-{"prompt": "Generate a program in Python to convert all characters of a string in lowercase."}
-{"prompt": "Output the Fibonacci sequence as a list of integers in Python"}
-{"prompt": "Write a Python program to search through a list of dictionaries for a specific key-value pair, and return the corresponding value."}
-{"prompt": "Generate an efficient python code which finds the most frequent element in an array."}
-{"prompt": "Create a Python function that takes in two strings and concatenates them with a space in between."}
-{"prompt": "Convert the given string to all capital letters using an algorithm and Python."}
-{"prompt": "Build a basic web server using Python."}
-{"prompt": "Generate a python program that takes an array as input and prints its elements in reverse order"}
-{"prompt": "Create a Python function to find the longest word in a given sentence."}
-{"prompt": "Write a function to find palindromes in a given list of strings using lambda function."}
-{"prompt": "Write a Python program to find all the unique numbers in a list."}
-{"prompt": "Write a function to find all the values in a list that are greater than a specified number."}
-{"prompt": "Model sentiment analysis task as a machine learning problem."}
-{"prompt": "Write a Python program which randomly selects 3 items from a list of 5 items and prints them to the console."}
-{"prompt": "Use the inputs provided, write Python code to check if two integers are equal."}
-{"prompt": "Write a python program to invert a given dictionary."}
-{"prompt": "Create a basic web-scraper using Python and Scrapy. The scraper should be able to parse the HTML, extract and store titles from a news website."}
-{"prompt": "Given a list of numbers, write a program in Python to select only the elements divisible by 5."}
-{"prompt": "Write a python function that takes two lists of numbers and returns the intersection between them."}
-{"prompt": "Write a Python program that takes a string and prints the frequency of each character in the string."}
-{"prompt": "Write a function to extract the nth element from a given list of tuples."}
-{"prompt": "Generate a classifier in Python using the Random Forest algorithm."}
-{"prompt": "Create a function in Python that prints out all prime numbers between 1 and a given number."}
-{"prompt": "Use Python to modify a JSON object for specific key-value pairs."}
-{"prompt": "Create a sentiment classifier using a linear regression algorithm in Python."}
-{"prompt": "Build a Python script for searching a given element in an array."}
-{"prompt": "Design a function in Python to find an element in a given list."}
-{"prompt": "Write a function to count the pairs of reverse strings in the given string list."}
-{"prompt": "Construct an algorithm in Python that sorts an array using quick sort."}
-{"prompt": "Write a Python function to add 5 to each of the numbers in a list."}
-{"prompt": "Using the input as a guide, modify the following Python code to add a new feature of sorting the dictionary by value."}
-{"prompt": "Generate a python program that takes a string and an integer as input and outputs a string repeated the given integer number of times."}
-{"prompt": "Create a function in Python that flattens a nested list."}
-{"prompt": "Convert the following SQL query into a python pandas dataframe."}
-{"prompt": "Write a python code to find the roots of the equation: x2- 7x + 10 = 0."}
-{"prompt": "Create a function in Python to remove all vowels in a given string."}
-{"prompt": "Generate a Random Forest classifier in Python"}
-{"prompt": "Write a Python program to display the multiplication table of a given number."}
-{"prompt": "Develop a Python function that performs bubble sort to sort an array of numbers"}
-{"prompt": "Create a Python program to compute the greatest common divisor (GCD) for two given numbers."}
-{"prompt": "Generate a Python program to delete the element at a given index from the given array."}
-{"prompt": "Create a Python program to print the nth Fibonacci number in the sequence, where n is provided as an input."}
-{"prompt": "Design an algorithm in Python that sorts a list in descending order."}
-{"prompt": "Write a function in Python to find the top k words in a given document."}
-{"prompt": "Create a function in Python for calculating the surface area of a cube."}
-{"prompt": "Develop a Python program to generate a Ruby code to format a given text."}
-{"prompt": "Generate a random number between 0 and 1 in Python."}
-{"prompt": "Develop a program which reverts a string without using reverse()"}
-{"prompt": "Create a function to parse a JSON string and return a Python dictionary."}
-{"prompt": "Create a Python program to encrypt a message with an XOR encryption algorithm."}
-{"prompt": "Write a basic HTML parser in Python that extracts the data from a given webpage."}
-{"prompt": "Write a Python program that takes two given strings and checks if the first is a substring of the second one."}
-{"prompt": "Design a Python 3 program that takes as input from the user two comma-separated lists of integers and then finds the union of the two lists."}
-{"prompt": "Can you create a program in Python that will return the nth Fibonacci number?"}
-{"prompt": "Write a Python function to detect if a given string contains any vowels."}
-{"prompt": "Using Regular Expressions, create a Python program that finds all the words in a given sentence that end with 'ing'."}
-{"prompt": "Write a Python program to generate a random number between the given input numbers."}
-{"prompt": "Write a function to find the index of the first occurrence of a given number in a sorted array."}
-{"prompt": "Generate a program in Python to count the occurrence of an element in a given list"}
-{"prompt": "Write a piece of code in Python to reverse a given string."}
-{"prompt": "Write an algorithm in Python that calculates the maximum subarray of a given array."}
-{"prompt": "Write a function in Python which takes one string as input and checks if the string starts with a vowel."}
-{"prompt": "Can you create a web scraper in Python to extract the titles of articles from a newspaper website?"}
-{"prompt": "Implement a default Python class for a message object. The class should implement `__init__` and `__str__` methods, and have a `text` attribute."}
-{"prompt": "Create a script in Python that prints a matrix of size n x m containing random numbers."}
-{"prompt": "Design a class in Python that finds the highest number in a given array of integers."}
-{"prompt": "Write Python code to implement a class like this."}
-{"prompt": "Create a function in Python that takes a string as an argument and replace all vowels with underscores."}
-{"prompt": "Write a Python program to find all matches of a given string in another string while ignoring case sensitivity."}
-{"prompt": "Write a Python function that takes two integer arguments, x and y, and returns the result of the formula (x+y)^2."}
-{"prompt": "Create a class in Python that represents a student with two instance variables and a constructor to assign values to those variables."}
-{"prompt": "Write a python function to check if roots of a quadratic equation are reciprocal of each other or not."}
-{"prompt": "Rewrite the following code snippet from Python to JavaScript, taking into account any changes in syntax or function calls.\n\nm = \"Hello, World!\"\nprint(m)"}
-{"prompt": "Suggest a Python library to monitor the performance of this system"}
-{"prompt": "Edit the given Python program to handle a KeyError."}
-{"prompt": "Generate a Python code snippet to print the first N numbers of the Fibonacci sequence."}
-{"prompt": "Create an animation in Python using some type of visualization library like Matplotlib."}
-{"prompt": "Create a Python program that takes an array of strings and returns an array of all strings that start with the letter \"A\"."}
-{"prompt": "Optimize the Python program below for making the code more efficient."}
-{"prompt": "Generate a python program that accepts two numbers and prints their addition."}
-{"prompt": "Create a python script to print a word 100 times."}
-{"prompt": "Create a Python program to detect palindrome words."}
-{"prompt": "Create a function in Python that will generate a random number between 1 and 10."}
-{"prompt": "Create a program in Python to find the maximum value from a dictionary."}
-{"prompt": "Write a Python function that takes three numbers as arguments and returns the maximum value."}
-{"prompt": "Write a python program to generate the Fibonacci sequence of 'n' numbers"}
-{"prompt": "Create a python program to perform a linear search"}
-{"prompt": "Write a Big O notation for the following python code."}
-{"prompt": "Edit the existing code to use a python approach to convert the temperature from celsius to fahrenheit."}
-{"prompt": "Create a Python function to generate a histogram given a set of data."}
-{"prompt": "Generate a python code to sum the elements in the given array."}
-{"prompt": "Create a Python program that takes a number as an input and computes the factorial of that number."}
-{"prompt": "Create a program to detect plagiarism using Python."}
-{"prompt": "Generate a Python class to represent a 2D point."}
-{"prompt": "Write a Python program to create a dictionary with keys a, b, c and their respective values as 1, 2, 3."}
-{"prompt": "Write a Python script to fold a given array of integers into two halves."}
-{"prompt": "Implement a sorting algorithm in Python that sorts a list of strings in descending order of length."}
-{"prompt": "Create a function in Python to find the longest string in a given list of strings"}
-{"prompt": "Write a function to check whether an element exists within a tuple."}
-{"prompt": "Edit the following code to make it compatible with python 3 syntax"}
-{"prompt": "Create a Python program for finding the second highest number in a list."}
-{"prompt": "Write a Python program to generate N random numbers."}
-{"prompt": "Generate a Python script to sort a given list of numbers without using the built-in function ``sort()``"}
-{"prompt": "Translate a given program written in Python to Java."}
-{"prompt": "Develop an algorithm in Python to find the depth of a binary tree."}
-{"prompt": "Create a table in python using a dictionary"}
-{"prompt": "Create a list of even numbers from 0 to 30 in one line of Python."}
-{"prompt": "Write a python function to find the frequency of a number in a given array."}
-{"prompt": "Generate a function in Python that will take a username and password as parameters and authenticate the user."}
-{"prompt": "Develop a valid Python script which computes the root of a given quadratic equation"}
-{"prompt": "Create a function in Python that takes an integer argument and returns True if the argument is an even number and False if it is an odd number."}
-{"prompt": "Create a python class that implements a stack."}
-{"prompt": "Generate a Python script to shuffle the elements in a list."}
-{"prompt": "Design a computer program to sort the list according to alphabetical order."}
-{"prompt": "Develop a Python program that takes a list of words in variable ‘words’ and creates a new variable with the length of each word."}
-{"prompt": "Rearrange the following code so that it works in Python."}
-{"prompt": "Implement a 'closest to zero' algorithm in Python, which returns the closest to 0 value from a given array."}
-{"prompt": "Declare a Python class that demonstrates inheritance."}
-{"prompt": "Write a Python algorithm to convert the following text into a list of integers."}
-{"prompt": "Generate a python program to remove duplicate elements in a given list."}
-{"prompt": "Write a Python program that uses while loop to print the numbers from 1 to 10."}
-{"prompt": "Can you write a python program to identify the last index of a given element in a list?"}
-{"prompt": "Create a program using Python that adds two numbers entered by the user."}
-{"prompt": "Design a Python program that asks a user to enter three numbers and prints out the largest one."}
-{"prompt": "Create a function in Python that will determine whether a given number is composite or prime."}
-{"prompt": "Write a function in Python which takes a number as a parameter and returns the factorial."}
-{"prompt": "Modify the given function to sort a list of tuples based on the second index of each tuple in Python."}
-{"prompt": "Write a Python program to round a number to a given number of decimal places."}
-{"prompt": "Develop a function in Python that converts the temperature from Celsius to Fahrenheit given the Celsius parameter."}
-{"prompt": "Generate a python program to filter a given array of numbers and remove all numbers greater than 5."}
-{"prompt": "Generate a Python function to count and print the total number of characters in a string."}
-{"prompt": "Write a Python program to calculate the standard deviation of given data."}
-{"prompt": "Write a Python code snippet for comparing two strings regardless of their case. You should use regular expressions."}
-{"prompt": "Develop a Python program to create an autocomplete system that predicts words based on the input text."}
-{"prompt": "Generate a Python program to convert Fahrenheit to Celsius using a given formula."}
-{"prompt": "Modify the following code in Python to check if a number is prime or not."}
-{"prompt": "Create an algorithm in Python that computes a Fibonacci sequence up to a given index."}
-{"prompt": "Create a function that returns multiple values in Python."}
-{"prompt": "Generate a list of five import statements for three different Python libraries."}
-{"prompt": "Write a python program to create a data structure composed of random values with a total of n elements."}
-{"prompt": "Implement a Pythong program to concatenate two strings."}
-{"prompt": "Produce a Python code to sort a two dimensional array in row-wise manner."}
-{"prompt": "Construct a python program that randomly swaps two elements within a list of numbers."}
-{"prompt": "Write Python code to implement the Quick Sort algorithm."}
-{"prompt": "Create a Python script to print characters from the \"abcd\" string until the total of characters printed reaches 50."}
-{"prompt": "Write a python program to concatenate strings within a given list and join them using a space."}
-{"prompt": "Create a function in Python to count the number of each letter in the sentence \"Hello world, this is GPT!\""}
-{"prompt": "Write a function to perform an HTTP request using Python."}
+{"prompt": "Write a python function to print positive numbers in a list."}
+{"prompt": "Write a function to find the perimeter of a rectangle."}
+{"prompt": "Write a python function to find the index of an extra element present in one sorted array."}
+{"prompt": "Write a function to extract the even elements in the nested mixed tuple."}
+{"prompt": "Write a function to get the n largest items from a dataset."}
+{"prompt": "Write a python function to determine whether all the numbers are different from each other are not."}
+{"prompt": "Write a function to check if the given array represents min heap or not."}
+{"prompt": "Write a function to return true if the password is valid."}
+{"prompt": "Write a function to multiply two integers without using the * operator in python."}
+{"prompt": "Write a python function to remove first and last occurrence of a given character from the string."}
+{"prompt": "Write a python function to check whether the given two arrays are equal or not."}
+{"prompt": "Write a function to convert camel case string to snake case string."}
+{"prompt": "Write a python function to convert octal number to decimal number."}
+{"prompt": "Write a python function to check whether the count of inversion of two types are same or not."}
+{"prompt": "Write a function to find the number which occurs for odd number of times in the given array."}
+{"prompt": "Write a function to create a list of empty dictionaries."}
+{"prompt": "Write a function to generate a two-dimensional array."}
+{"prompt": "Write a function to find the frequency of each element in the given list."}
+{"prompt": "Write a python function to find the maximum occuring divisor in an interval."}
+{"prompt": "Write a function to print the season for the given month and day."}
+{"prompt": "Write a function to find the sequences of one upper case letter followed by lower case letters."}
+{"prompt": "Write a function to locate the right insertion point for a specified value in sorted order."}
+{"prompt": "Write a function to extract the maximum numeric value from a string by using regex."}
+{"prompt": "Write a function to find the nth tetrahedral number."}
+{"prompt": "Write a function to filter even numbers using lambda function."}
+{"prompt": "Write a function to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers."}
+{"prompt": "Write a function to perform chunking of tuples each of size n."}
+{"prompt": "Write a python function to find a pair with highest product from a given array of integers."}
+{"prompt": "Write a function to check if the common elements between two given lists are in the same order or not."}
+{"prompt": "Write a python function to find the first digit in factorial of a given number."}
+{"prompt": "Write a python function to find the sum of fourth power of first n even natural numbers."}
+{"prompt": "Write a function to group a sequence of key-value pairs into a dictionary of lists."}
+{"prompt": "Write a function to find the inversions of tuple elements in the given tuple list."}
+{"prompt": "Write a python function to check whether every even index contains even numbers of a given list."}
 {"prompt": "Write a python function to find smallest number in a list."}
-{"prompt": "Generate a Python program for creating a tiered dictionary with nested keys and values."}
-{"prompt": "Create a Python program which takes in two integers and prints out the sum."}
-{"prompt": "Write a Python program to sort a dictionary based on its values."}
-{"prompt": "Define a function in Python that takes two strings and returns a new string which is the concatenation of the two."}
-{"prompt": "Create a for-loop in Python to iterate over a list and print each element."}
-{"prompt": "Model a logistic regression algorithm using Python to predict a binary target: true or false."}
-{"prompt": "Generate a list comprehensions in Python that takes a positive integer and creates a list with all its factors."}
-{"prompt": "Write a short program in Python to print out each word in a given sentence."}
-{"prompt": "Generate a Python script that prints out the first n Fibonacci numbers."}
-{"prompt": "Create a Python script to format a string into a list"}
-{"prompt": "Improve the following Python code to check if a number is in the range of 1 to 10 (inclusive)."}
-{"prompt": "Construct a machine learning model in Python for predicting the prices of apartments in your city."}
-{"prompt": "Create a Neural Network class in Python that takes in two arguments (input size and number of outputs)."}
-{"prompt": "Write a Python program to search for a particular string in a given paragraph."}
-{"prompt": "Generate a new Python program to be able to classify a list of emails."}
-{"prompt": "Can you generate the Fibonacci sequence up to 20 using Python?"}
+{"prompt": "Write a function to sort a list of tuples using lambda."}
+{"prompt": "Write a function to find the lateral surface area of cuboid"}
+{"prompt": "Write a function to convert tuple string to integer tuple."}
+{"prompt": "Write a function to convert the given binary tuple to integer."}
+{"prompt": "Write a function to check for the number of jumps required of given length to reach a point of form (d, 0) from origin in a 2d plane."}
+{"prompt": "Write a function to extract specified size of strings from a give list of string values."}
+{"prompt": "Write a function to calculate the sum of series 1\u00b2+2\u00b2+3\u00b2+\u2026.+n\u00b2."}
+{"prompt": "Write a function to remove a specified column from a given nested list."}
+{"prompt": "Write a function to check whether a given string has a capital letter, a lower case letter, a number and specified length using lambda function."}
+{"prompt": "Write a function to move all zeroes to the end of the given array."}
+{"prompt": "Write a function to convert all possible convertible elements in the list to float."}
+{"prompt": "Write a python function to set all odd bits of a given number."}
+{"prompt": "Write a function to find maximum possible sum of disjoint pairs for the given array of integers and a number k."}
+{"prompt": "Write a python function to find the element occurring odd number of times."}
+{"prompt": "Write a function to create the next bigger number by rearranging the digits of a given number."}
+{"prompt": "Write a function to find the maximum difference between available pairs in the given tuple list."}
+{"prompt": "Write a python function to check whether the triangle is valid or not if 3 points are given."}
+{"prompt": "Write a function to find out the minimum no of swaps required for bracket balancing in the given string."}
+{"prompt": "Write a python function to calculate the number of odd days in a given year."}
+{"prompt": "Write a function to add the given tuple to the given list."}
+{"prompt": "Write a function to move all the numbers in it to the given string."}
+{"prompt": "Write a function to remove specific words from a given list."}
+{"prompt": "Write a python function to count the total unset bits from 1 to n."}
+{"prompt": "Write a python function to check whether the elements in a list are same or not."}
+{"prompt": "Write a python function to find the sum of absolute differences in all pairs of the given array."}
+{"prompt": "Write a function that matches a string that has an a followed by one or more b's."}
+{"prompt": "Write a function to get dictionary keys as a list."}
+{"prompt": "Write a function to find n-th rencontres number."}
+{"prompt": "Write a function to check the given decimal with a precision of 2 by using regex."}
+{"prompt": "Write a function to sum the length of the names of a given list of names after removing the names that start with a lowercase letter."}
+{"prompt": "Write a python function to check whether every odd index contains odd numbers of a given list."}
+{"prompt": "Write a function to select the nth items of a list."}
+{"prompt": "Write a function to check whether the given number is undulating or not."}
+{"prompt": "Write a function to find the union of elements of the given tuples."}
 {"prompt": "Write a function to check if the triangle is valid or not."}
-{"prompt": "Generate a Python program to find the distinct pair of the numbers whose product is equal to a given number."}
-{"prompt": "Create a python function to compute the area of a triangle with given sides."}
-{"prompt": "Create a Python class that defines a Rectangle object that has two attributes - length and breadth and a method to calculate the area of the rectangle."}
-{"prompt": "Write a Python program to remove unnecessary punctuation marks from a string."}
-{"prompt": "Write a Python program to get the sum of a given array of numbers."}
-{"prompt": "Write a function to group the 1st elements on the basis of 2nd elements in the given tuple list."}
-{"prompt": "Build a decision tree model in Python."}
-{"prompt": "Create an algorithm in Python which prints out the number of even numbers in an array."}
-{"prompt": "Write a python function to find the last digit when factorial of a divides factorial of b."}
-{"prompt": "Improve the performance of the below algorithm written in Python."}
-{"prompt": "Create a function in Python that takes an array of strings and returns a new array of strings with all the vowels removed from each string."}
-{"prompt": "Create a Python script to reverse a string using recursion."}
-{"prompt": "Write a python function to count the number of lists in a given number of lists."}
-{"prompt": "Generate a random string of 8 characters using Python."}
-{"prompt": "Construct a regex pattern in Python to detect URLs."}
-{"prompt": "Write a Python program to search for a given string in a list of strings and return the index of the first occurrence of that string."}
-{"prompt": "Generate a Python class to compare two strings."}
-{"prompt": "Write a script in Python that asks the user to input a sentence, then prints the sentence in reverse."}
-{"prompt": "Create a Python program to check if a given number is in a given linear list or not, and return the position if found."}
-{"prompt": "Create a function in Python to create a dictionary with keys as numbers and each key corresponding to the natural number to its right."}
-{"prompt": "Given a Python list of integers, write a function to find the sum of the elements in the list."}
-{"prompt": "Create a recursive function in Python to calculate the Fibonacci numbers up to the nth term."}
-{"prompt": "Design a Python script that takes two dates as input and returns the number of days between them."}
-{"prompt": "Write a function in Python that takes in two strings of the same length and returns the number of different characters in the two strings."}
-{"prompt": "Write a Python script to implement a linear search algorithm."}
-{"prompt": "Generate an algorithm in Python that can classify any dataset having 3 classes."}
-{"prompt": "Design a program in Python which generates a random mathematical equation with two numbers."}
-{"prompt": "Design a Python program to create a list of randomized numbers."}
-{"prompt": "Create a Python dictionary to store data about a student."}
-{"prompt": "Using HTTP, create a Python program to make a request to an API endpoint and receive a response."}
-{"prompt": "Given a duration in seconds, write a Python code to convert it into a string showing hours, minutes and seconds."}
-{"prompt": "Compose a program in Python to generate a list of prime numbers in the range of 2-50."}
-{"prompt": "Create a Python program to remove punctuations from the given sentence"}
-{"prompt": "Generate a list of the first 10 Fibonacci numbers in Python."}
-{"prompt": "Design a web service in Python that takes two parameters: a list and an operation."}
-{"prompt": "Generate a Python program that takes a list of strings as input and prints the strings in alphabetical order."}
-{"prompt": "Generate a python program to print the given sentence in reverse."}
-{"prompt": "Write a python function to find the average of odd numbers till a given odd number."}
-{"prompt": "Code an algorithm in Python to compute the Fibonacci sequence."}
-{"prompt": "Given a set X, suggest a Python program to calculate the median of X"}
-{"prompt": "Create a function in Python that takes a number and prints the odd numbers in the range [0, n)."}
-{"prompt": "In Python, parse the following XML document and extract the book title and author."}
-{"prompt": "Create a class in Python to represent a 2D circle."}
-{"prompt": "Create a Python script that takes an array with n elements and shuffles it."}
-{"prompt": "Develop a Python Program to determine if two given strings are an anagram or not."}
-{"prompt": "Create a python code to remove all elements from a list using a for loop?"}
-{"prompt": "Write a Python program to take in a list of phrases and generate a string with the each phrase followed by its length."}
-{"prompt": "Edit an existing Python program that takes two numbers as input and calculates their sum. The edited program should accept the numbers as input from the user via the command line."}
-{"prompt": "Write a Python code to create an object to store the details of a student such as name, age, and grade."}
-{"prompt": "Write a python program to calculate the sum of the squares of the odd numbers between the given two numbers."}
-{"prompt": "Write a function in Python to classify a given number into even or odd."}
-{"prompt": "Write a function to perfom the rear element extraction from list of tuples records."}
-{"prompt": "Create a Python program to convert a given string to an integer by removing all non-numeric characters."}
-{"prompt": "Play a game of Tic-Tac-Toe in Python."}
-{"prompt": "Analyze the given Python code and correct any errors so that the code runs correctly."}
-{"prompt": "Convert the following function from Python to Java."}
-{"prompt": "Create a Python program to find out if a string contains any characters from another given string."}
-{"prompt": "Write a Python Function that receives two strings and checks to see if one of them is an anagram of the other one."}
-{"prompt": "Create a Python script to generate a random password of length 8, containing a mix of upper and lower case letters, and numbers"}
-{"prompt": "Write a Python function to find two numbers in an array with the largest sum."}
-{"prompt": "Create a function in Python that solves the Fibonacci sequence."}
-{"prompt": "Generate a Python program to add a prefix and suffix to each elements of a list."}
-{"prompt": "Suggest a method to optimize the following code segment in Python:\n\n    x = 10\n    y = 20"}
-{"prompt": "Input a text string, and build a function in Python to count the number of vowels in the string."}
-{"prompt": "Build a Python script to compare two strings and determine which string is the longest."}
-{"prompt": "Generate a Python script to delete the duplicate element from an array."}
-{"prompt": "Construct a Python program that creates a web server running on port 80."}
+{"prompt": "Write a python function to find the position of the last removed element from the given array."}
+{"prompt": "Write a function to find sum of the numbers in a list between the indices of a specified range."}
+{"prompt": "Write a function to remove all whitespaces from the given string using regex."}
+{"prompt": "Write a function to find the maximum length of the subsequence with difference between adjacent elements for the given array."}
+{"prompt": "Write a function to print check if the triangle is scalene or not."}
+{"prompt": "Write a python function to remove odd numbers from a given list."}
+{"prompt": "Write a python function to multiply all items in the list."}
+{"prompt": "Write a python function to find the average of a list."}
+{"prompt": "Write a python function to count the number of equal numbers from three given integers."}
+{"prompt": "Write a function to insert a given string at the beginning of all items in a list."}
 {"prompt": "Write a function to calculate the sum of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0)."}
-{"prompt": "Write a Python function to extract the last digits of a given integer."}
-{"prompt": "Endeavour to create a python function that takes an array of numbers and returns the highest number in the array."}
-{"prompt": "Build a decision tree classifier in Python using the scikit-learn library."}
-{"prompt": "Generate a Python program to optimize a low-cost route between two points"}
-{"prompt": "Using the provided input, write a Python program to calculate the sum of the digits of a given number."}
-{"prompt": "Create a Python program that calculates the average of 3 grades and returns a grade level using the following scale:\n\n90-100: A\n80-89: B\n70-79: C\n60-69: D\nBelow 60: F"}
-{"prompt": "Edit the following Python program to accept a list of numbers as input and find the second largest number from the list."}
-{"prompt": "Given the following input JSON data, write a Python program to print out all the elements that have an even length."}
-{"prompt": "Create a program in Python that prints the Fibonacci Series up to N terms, where N is a user-input number."}
-{"prompt": "Given a list of integers, write a Python program to filter out all numbers that are divisible by 5."}
-{"prompt": "Create a Python function to check whether or not a string is palindrome or not."}
-{"prompt": "Create a binary search algorithm in Python"}
-{"prompt": "Write a function in python for finding a substring of a given string"}
-{"prompt": "Generate a python code to calculate the sum of two numbers given."}
-{"prompt": "Create a design pattern to make a python program more efficient."}
-{"prompt": "Create a class in Python that will represent a tree. The class should include methods for adding and removing nodes."}
+{"prompt": "Write a python function to find the maximum sum of elements of list in a list of lists."}
+{"prompt": "Write a function to find the list of lists with maximum length."}
+{"prompt": "Write a python function to left rotate the bits of a given number."}
+{"prompt": "Write a python function to find the minimum operations required to make two numbers equal."}
+{"prompt": "Write a function to display sign of the chinese zodiac for given year."}
+{"prompt": "Write a function to push all values into a heap and then pop off the smallest values one at a time."}
+{"prompt": "Write a function to find all words starting with 'a' or 'e' in a given string."}
+{"prompt": "Write a function to merge multiple sorted inputs into a single sorted iterator using heap queue algorithm."}
+{"prompt": "Write a python function to find the minimum of two numbers."}
+{"prompt": "Write a python function to find the perimeter of a cylinder."}
+{"prompt": "Write a python function to find the missing number in a sorted array."}
+{"prompt": "Write a function to check whether the given number is armstrong or not."}
+{"prompt": "Write a python function to find the maximum occurring character in a given string."}
+{"prompt": "Write a function to find the nth delannoy number."}
+{"prompt": "Write a function to solve the fibonacci sequence using recursion."}
+{"prompt": "Write a function to remove all elements from a given list present in another list."}
+{"prompt": "Write a python function to count set bits of a given number."}
+{"prompt": "Write a function to print n-times a list using map function."}
+{"prompt": "Write a function to find n\u2019th smart number."}
+{"prompt": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format."}
+{"prompt": "Write a function to shortlist words that are longer than n from a given list of words."}
+{"prompt": "Write a python function to count the occurence of all elements of list in a tuple."}
+{"prompt": "Write a python function to find even numbers from a mixed list."}
+{"prompt": "Write a function to find out, if the given number is abundant."}
+{"prompt": "Write a function to check whether the entered number is greater than the elements of the given array."}
+{"prompt": "Write a function to find number of lists present in the given tuple."}
+{"prompt": "Write a function to calculate the perimeter of a regular polygon."}
+{"prompt": "Write a function to round up a number to specific digits."}
+{"prompt": "Write a function to count number of unique lists within a list."}
+{"prompt": "Write a function to extract the index minimum value record from the given tuples."}
+{"prompt": "Write a function to add two numbers and print number of digits of sum."}
+{"prompt": "Write a python function to check if the elements of a given list are unique or not."}
+{"prompt": "Write a function to split the given string at uppercase letters by using regex."}
+{"prompt": "Write a function to get the angle of a complex number."}
+{"prompt": "Write a python function to remove the characters which have odd index values of a given string."}
 {"prompt": "Write a function to check whether all items of a list are equal to a given string."}
+{"prompt": "Write a python function to find the minimum element in a sorted and rotated array."}
+{"prompt": "Write a python function to find element at a given index after number of rotations."}
+{"prompt": "Write a function to find the summation of tuple elements in the given tuple list."}
+{"prompt": "Write a function to pack consecutive duplicates of a given list elements into sublists."}
+{"prompt": "Write a function to insert an element before each element of a list."}
+{"prompt": "Write a python function to interchange first and last elements in a given list."}
+{"prompt": "Write a function that matches a string that has an a followed by zero or more b's by using regex."}
+{"prompt": "Write a function to find the item with maximum frequency in a given list."}
+{"prompt": "Write a python function to find the first repeated character in a given string."}
+{"prompt": "Write a function to sort a list of lists by a given index of the inner list."}
+{"prompt": "Write a function where a string will start with a specific number."}
+{"prompt": "Write a function to add the k elements to each element in the tuple."}
+{"prompt": "Write a function to find m number of multiples of n."}
+{"prompt": "Write a function to sort the given list based on the occurrence of first element of tuples."}
+{"prompt": "Write a python function to find the sum of the three lowest positive numbers from a given list of numbers."}
+{"prompt": "Write a function to filter odd numbers using lambda function."}
+{"prompt": "Write a function to find the perimeter of a square."}
+{"prompt": "Write a function to get a colon of a tuple."}
+{"prompt": "Write a function to find the area of a trapezium."}
+{"prompt": "Write a function to find the similar elements from the given two tuple lists."}
+{"prompt": "Write a function to get the frequency of the elements in a list."}
+{"prompt": "Write a python function to find the highest power of 2 that is less than or equal to n."}
+{"prompt": "Write a python function to find the parity of a given number."}
+{"prompt": "Write a function to calculate the value of 'a' to the power 'b'."}
+{"prompt": "Write a python function to left rotate the string."}
+{"prompt": "Write a function to verify validity of a string of parentheses."}
+{"prompt": "Write a function of recursion list sum."}
+{"prompt": "Write a function to remove uppercase substrings from a given string by using regex."}
+{"prompt": "Write a function to sort the given array by using merge sort."}
+{"prompt": "Write a python function to convert complex numbers to polar coordinates."}
+{"prompt": "Write a function to calculate the sum of series 1\u00b3+2\u00b3+3\u00b3+\u2026.+n\u00b3."}
+{"prompt": "Write a function to sort each sublist of strings in a given list of lists using lambda function."}
+{"prompt": "Write a python function to convert a decimal number to binary number."}
+{"prompt": "Write a function to search a literals string in a string and also find the location within the original string where the pattern occurs."}
+{"prompt": "Write a function to find the maximum value in a given heterogeneous list."}
+{"prompt": "Write a function to list out the list of given strings individually using map function."}
+{"prompt": "Write a python function to find the minimum length of sublist."}
+{"prompt": "Write a function to find the number of rotations in a circularly sorted array."}
+{"prompt": "Write a function to replace characters in a string."}
+{"prompt": "Write a function to find the smallest missing element in a sorted array."}
+{"prompt": "Write a function to find the directrix of a parabola."}
+{"prompt": "Write a function to remove multiple spaces in a string by using regex."}
+{"prompt": "Write a python function to check whether the product of digits of a number at even and odd places is equal or not."}
+{"prompt": "Write a function to calculate the sum of the negative numbers of a given list of numbers using lambda function."}
+{"prompt": "Write a function to find all three, four, five characters long words in the given string by using regex."}
+{"prompt": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n)."}
+{"prompt": "Write a python function to find number of solutions in quadratic equation."}
+{"prompt": "Write a function to find the n'th perrin number using recursion."}
+{"prompt": "Write a function to print all permutations of a given string including duplicates."}
+{"prompt": "Write a function to remove consecutive duplicates of a given list."}
+{"prompt": "Write a function to count alphabets,digits and special charactes in a given string."}
+{"prompt": "Write a function to find the maximum total path sum in the given triangle."}
+{"prompt": "Write a python function to check whether the given two numbers have same number of digits or not."}
+{"prompt": "Write a function to find the maximum of similar indices in two lists of tuples."}
+{"prompt": "Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not."}
+{"prompt": "## write a function to find the minimum number of jumps to reach the end of the array for the given array of integers where each element represents the max number of steps that can be made forward from that element. > indented block > indented block"}
+{"prompt": "Write a function to check whether the given month number contains 31 days or not."}
+{"prompt": "Write a python function to find the maximum difference between any two elements in a given array."}
+{"prompt": "Write a python function to find sum of product of binomial co-efficients."}
+{"prompt": "Write a function to extract elements that occur singly in the given tuple list."}
+{"prompt": "Write a python function to find the difference between sum of cubes of first n natural numbers and the sum of first n natural numbers."}
+{"prompt": "Write a python function to check whether an array can be sorted or not by picking only the corner elements."}
+{"prompt": "Write a function to count the number of unique lists within a list."}
+{"prompt": "Write a python function to find the smallest missing number from the given array."}
+{"prompt": "Write a function to find the square root of a perfect number."}
+{"prompt": "Write a python function to check if a given number is one less than twice its reverse."}
+{"prompt": "Write a function to merge three dictionaries into a single expression."}
+{"prompt": "Write a function to find the maximum product from the pairs of tuples within a given list."}
+{"prompt": "Write a function to check if a substring is present in a given list of string values."}
+{"prompt": "Write a function to check if one tuple is a subset of another tuple."}
+{"prompt": "Write a function to find minimum of two numbers."}
+{"prompt": "Write a python function to find the sum of all even natural numbers within the range l and r."}
+{"prompt": "Write a python function to capitalize first and last letters of each word of a given string."}
+{"prompt": "Write a function to check if the string is a valid email address or not using regex."}
+{"prompt": "Write a function to put spaces between words starting with capital letters in a given string by using regex."}
+{"prompt": "Write a function to repeat the given tuple n times."}
+{"prompt": "Write a python function to remove two duplicate numbers from a given number of lists."}
+{"prompt": "Write a function to sort a given list of strings of numbers numerically."}
+{"prompt": "Write a python function to split the array and add the first part to the end."}
+{"prompt": "Write a python function to check whether a sequence of numbers has an increasing trend or not."}
+{"prompt": "Write a function to concatenate each element of tuple by the delimiter."}
+{"prompt": "Write a function to abbreviate 'road' as 'rd.' in a given string."}
+{"prompt": "Write a function to extract the nth element from a given list of tuples."}
+{"prompt": "Write a function to find all words which are at least 4 characters long in a string by using regex."}
+{"prompt": "Write a python function to check whether the given number is a perfect square or not."}
+{"prompt": "Write a python function to find binomial co-efficient."}
+{"prompt": "Write a python function to find the maximum length of sublist."}
+{"prompt": "Write a function to find the focus of a parabola."}
+{"prompt": "Write a python function to toggle only first and last bits of a given number."}
+{"prompt": "Write a function to find the length of the longest sub-sequence such that elements in the subsequences are consecutive integers."}
+{"prompt": "Write a function to check if all the elements in tuple have same data type or not."}
+{"prompt": "Write a function to add a dictionary to the tuple."}
+{"prompt": "Write a python function to find remainder of array multiplication divided by n."}
+{"prompt": "Write a function to find numbers within a given range where every number is divisible by every digit it contains."}
+{"prompt": "Write a function to extract all the adjacent coordinates of the given coordinate tuple."}
+{"prompt": "Write a function to find the n'th star number."}
+{"prompt": "Write a function to filter the height and width of students which are stored in a dictionary."}
+{"prompt": "Write a function to convert the given string of float type into tuple."}
+{"prompt": "Write a function to sort a list in a dictionary."}
+{"prompt": "Write a python function to check whether the given number is even or not using bitwise operator."}
+{"prompt": "Write a function to remove all the tuples with length k."}
+{"prompt": "Write a function to convert degrees to radians."}
+{"prompt": "Write a function to find the depth of a dictionary."}
+{"prompt": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format by using regex."}
+{"prompt": "Write a function to sort the given array by using counting sort."}
+{"prompt": "Write a python function to count the number of squares in a rectangle."}
+{"prompt": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b'."}
 {"prompt": "Write a function to find numbers divisible by m and n from a list of numbers using lambda function."}
-{"prompt": "Write a code in Python that fills a two-dimensional list of given sizes with increasing numbers starting from 1."}
-{"prompt": "Create a function in Python to improve the readability of a text by converting it into title case."}
-{"prompt": "Develop a function in Python to generate a random number between 1 and 10."}
-{"prompt": "Create a for loop in Python to calculate the total sum of all elements in the given list."}
-{"prompt": "Develop an optimized Python Code to remove consecutive duplicate characters from a String"}
-{"prompt": "Write a Python program to calculate the sum of all words in a sentence."}
-{"prompt": "Suggest a data structure in Python to store the following information about a list of students: Name, Age, Grade."}
-{"prompt": "Create a Python class to manage a shopping cart."}
-{"prompt": "Create a program to execute a linear search in Python."}
-{"prompt": "Create a function which reverses the characters in a string."}
-{"prompt": "Create a Python program to generate a list of prime numbers up to a certain number."}
-{"prompt": "Write a python code to find all numbers in a given string, and print them out."}
-{"prompt": "Write a Python script to simulate a coin toss experiment."}
-{"prompt": "Write a Python program to separate a specified string into characters and numbers."}
-{"prompt": "Create a Python script to calculate the running sum of an array."}
-{"prompt": "Create a way to encrypt a message using a key in Python."}
-{"prompt": "Clone a remote Git repository using a Python program."}
-{"prompt": "Create a Python program to search through a list of names and print out any names that contain the letter 'a'."}
-{"prompt": "Create a Python program that can calculate the Volume of a pyramid based on the provided side length and height."}
-{"prompt": "Write a function in Python that returns the maximum element in the given list."}
-{"prompt": "Create a python program to calculate the average of the three numbers 55, 48 and 65"}
-{"prompt": "Create a Python program to extract data from webpages using the BeautifulSoup library."}
-{"prompt": "Optimize this Python code to reduce run time complexity"}
-{"prompt": "Write a Python program to calculate the sum of two given integers, but only if both of them are even."}
-{"prompt": "Write a Python program that takes a sentence as an argument and removes all punctuations from it."}
-{"prompt": "Write a Python statement that Finds the maximum value among the given numbers."}
-{"prompt": "Write a python program to extract text data from a PDF document."}
-{"prompt": "Generate a valid Python program that finds all the prime numbers in a given range"}
-{"prompt": "Implement a function in Python that takes a list of integers and returns the sum of the squares of the even numbers."}
-{"prompt": "Create a python program to test if a number is even or odd."}
-{"prompt": "Create a Python program to reverse a string."}
-{"prompt": "Create a Python code to generate a string containing the multiplying table for any given number up to ten."}
-{"prompt": "Implement an algorithm in Python that finds the Nth Fibonacci Number."}
-{"prompt": "Generate a Python program to display a Fibonacci sequence of first n numbers."}
-{"prompt": "Implement a function in Python that takes as input an integer and prints out the Fibonacci sequence up to the entered value."}
-{"prompt": "Design an algorithm in Python to compute the intersection of two given arrays."}
-{"prompt": "Construct an algorithm in Python for calculating the median of a given list of numbers."}
-{"prompt": "Create a Python program which takes in a string of text and returns all the unique words in the string."}
-{"prompt": "Generate a code for a Python program that removes all instances of a given character from a string."}
-{"prompt": "Edit the following Python code to improve its readability."}
-{"prompt": "Generate a Python program to compare two strings."}
-{"prompt": "Using Python, create a function to convert HTML to plain text."}
-{"prompt": "Create a Python script to check a given URL and see if it is active or not."}
-{"prompt": "Design a Python program to print a triangle pyramid pattern."}
-{"prompt": "Create a 3-layer artificial neural network using Python and print the outcome."}
-{"prompt": "Sort a given list of strings into alphabetical order."}
-{"prompt": "Write a Python program to sort a given list in ascending order of the length of each element."}
-{"prompt": "Optimize an existing Python program for computing the reverse of a string."}
-{"prompt": "Design a Python function to compute the factorial of a given number."}
-{"prompt": "Using Python create a web scraper to retrieve the text in a specific HTML element."}
-{"prompt": "Create a Python program for classifying an array of numbers into one of three classes (low, medium, or high)."}
+{"prompt": "Write a function to get the word with most number of occurrences in the given strings list."}
+{"prompt": "Write a python function to count number of non-empty substrings of a given string."}
+{"prompt": "Write a function to divide two lists using map and lambda function."}
+{"prompt": "Write a function to find the vertex of a parabola."}
+{"prompt": "Write a function to find the area of a pentagon."}
+{"prompt": "Write a function to find the n-th rectangular number."}
+{"prompt": "Write a function to print check if the triangle is equilateral or not."}
+{"prompt": "Write a python function to find the index of smallest triangular number with n digits."}
+{"prompt": "Write a python function to count the number of lists in a given number of lists."}
+{"prompt": "Write a function to check if the given integer is a prime number."}
+{"prompt": "Write a function to find the perimeter of a triangle."}
+{"prompt": "Write a function to increment the numeric values in the given strings by k."}
+{"prompt": "Write a function to find the area of a rombus."}
+{"prompt": "Write a python function to shift first element to the end of given list."}
+{"prompt": "Write a function to find the longest bitonic subsequence for the given array."}
+{"prompt": "Write a function to substract the elements of the given nested tuples."}
+{"prompt": "Write a python function to find the last position of an element in a sorted array."}
+{"prompt": "Write a function to remove particular data type elements from the given tuple."}
+{"prompt": "Write a python function to remove negative numbers from a list."}
+{"prompt": "Write a function to find the previous palindrome of a specified number."}
+{"prompt": "Write a python function to check whether the two numbers differ at one bit position only or not."}
+{"prompt": "Write a function to sort a given matrix in ascending order according to the sum of its rows."}
+{"prompt": "Write a function to check if all values are same in a dictionary."}
+{"prompt": "[link text](https:// [link text](https:// [link text](https://)))write a function to convert a string to a list."}
+{"prompt": "Write a function to find all the values in a list that are greater than a specified number."}
+{"prompt": "Write a python function to check whether an array is subarray of another or not."}
+{"prompt": "Write a python function to find smallest power of 2 greater than or equal to n."}
+{"prompt": "Write a python function to count number of vowels in the string."}
+{"prompt": "Write a python function to find the sum of fifth power of first n even natural numbers."}
+{"prompt": "Write a function to check if the two given strings are permutations of each other."}
+{"prompt": "Write a python function to find the cube sum of first n odd natural numbers."}
+{"prompt": "Write a function to calculate the harmonic sum of n-1."}
+{"prompt": "Write a function to find the median of a trapezium."}
+{"prompt": "Write a python function to count characters at same position in a given string (lower and uppercase characters) as in english alphabet."}
+{"prompt": "Write a function to calculate the nth pell number."}
+{"prompt": "Write a python function to count the number of rotations required to generate a sorted array."}
+{"prompt": "Write a function to find the cumulative sum of all the values that are present in the given tuple list."}
+{"prompt": "Write a function to count total characters in a string."}
+{"prompt": "Write a python function to check whether the roots of a quadratic equation are numerically equal but opposite in sign or not."}
+{"prompt": "Write a python function to find sum of prime numbers between 1 to n."}
+{"prompt": "Write a function to find all adverbs and their positions in a given sentence."}
+{"prompt": "Write a function to find the occurrence and position of the substrings within a string."}
+{"prompt": "Write a function to combine two dictionaries by adding values for common keys."}
+{"prompt": "Write a function to multiply all the numbers in a list and divide with the length of the list."}
+{"prompt": "Write a function to find ln, m lobb number."}
+{"prompt": "Write a function to split the given string with multiple delimiters by using regex."}
+{"prompt": "Write a function to calculate the height of the given binary tree."}
+{"prompt": "Write a function to find the next smallest palindrome of a specified number."}
+{"prompt": "Write a function to check if a triangle of positive area is possible with the given angles."}
+{"prompt": "Write a function to reverse strings in a given list of string values."}
+{"prompt": "Write a function to convert tuple into list by adding the given string after every element."}
+{"prompt": "Write a function to find sequences of lowercase letters joined with an underscore using regex."}
+{"prompt": "Write a function to find the perimeter of a pentagon."}
+{"prompt": "Write a python function to check whether the count of divisors is even or odd."}
+{"prompt": "Write a function to find the longest common prefix in the given set of strings."}
+{"prompt": "Write a function to find the maximum sum in the given right triangle of numbers."}
+{"prompt": "Write a function to find the division of first even and odd number of a given list."}
+{"prompt": "Write a function to find the maximum of nth column from the given tuple list."}
+{"prompt": "Write a function to remove all whitespaces from a string."}
+{"prompt": "Write a function to calculate electricity bill."}
+{"prompt": "Write a python function to find the sum of even factors of a number."}
+{"prompt": "Write a python function to move all zeroes to the end of the given list."}
+{"prompt": "Write a python function to find sum of even index binomial coefficients."}
+{"prompt": "Write a function to find the minimum product from the pairs of tuples within a given list."}
+{"prompt": "Write a function to check if the given tuple contains only k elements."}
+{"prompt": "Write a python function to check whether the given two integers have opposite sign or not."}
+{"prompt": "Write a function to check whether the given month name contains 30 days or not."}
+{"prompt": "Write a python function to find odd numbers from a mixed list."}
+{"prompt": "Write a function to remove lowercase substrings from a given string by using regex."}
+{"prompt": "Write a python function to check whether the given string is a binary string or not."}
+{"prompt": "Write a function to access dictionary key\u2019s element by index."}
+{"prompt": "Write a function to extract all the pairs which are symmetric in the given tuple list."}
+{"prompt": "Write a function to find the largest triangle that can be inscribed in an ellipse."}
+{"prompt": "Write a python function to count the maximum number of equilateral triangles that can be formed within a given equilateral triangle."}
+{"prompt": "Write a python function to find the sum of fourth power of n natural numbers."}
+{"prompt": "Write a function to remove similar rows from the given tuple matrix."}
+{"prompt": "Write a function to find the surface area of a cone."}
+{"prompt": "Write a function to perform index wise multiplication of tuple elements in the given two tuples."}
+{"prompt": "Write a python function to count the pairs with xor as an odd number."}
+{"prompt": "Write a function to convert the given tuple to a key-value dictionary using adjacent elements."}
+{"prompt": "Write a function to remove an empty tuple from a list of tuples."}
+{"prompt": "Write a function to convert a list of multiple integers into a single integer."}
+{"prompt": "Write a function to remove the parenthesis area in a string."}
+{"prompt": "Write a function to count sequences of given length having non-negative prefix sums that can be generated by given values."}
+{"prompt": "Write a python function to check whether all the characters are same or not."}
+{"prompt": "Write a function to find the maximum sum of bi-tonic sub-sequence for the given array."}
+{"prompt": "Write a function to print check if the triangle is isosceles or not."}
+{"prompt": "Write a function to sort a list of elements using comb sort."}
+{"prompt": "Write a function that matches a word containing 'z'."}
+{"prompt": "Write a function to remove all characters except letters and numbers using regex"}
+{"prompt": "Write a function to find the index of the first occurrence of a given number in a sorted array."}
+{"prompt": "Write a function to find the third angle of a triangle using two angles."}
+{"prompt": "Write a python function to count the number of digits of a given number."}
+{"prompt": "Write a function to extract a specified column from a given nested list."}
+{"prompt": "Write a function to find the largest integers from a given list of numbers using heap queue algorithm."}
+{"prompt": "Write a python function to count all the substrings starting and ending with same characters."}
+{"prompt": "Write a python function to check whether the hexadecimal number is even or odd."}
+{"prompt": "Write a function to generate all sublists of a given list."}
+{"prompt": "Write a python function to check whether the given string is made up of two alternating characters or not."}
+{"prompt": "Write a function to remove characters from the first string which are present in the second string."}
+{"prompt": "Write a python function to find the minimum difference between any two elements in a given array."}
+{"prompt": "Write a python function to find the sum of squares of binomial co-efficients."}
+{"prompt": "Write a python function to check whether the given number is odd or not using bitwise operator."}
+{"prompt": "Write a function to check the occurrences of records which occur similar times in the given tuples."}
+{"prompt": "Write a function to count the most common character in a given string."}
+{"prompt": "Write a function to check whether the given ip address is valid or not using regex."}
+{"prompt": "Write a function that gives profit amount if the given amount has profit else return none."}
+{"prompt": "Write a function to merge two dictionaries."}
+{"prompt": "Write a function to find the circumference of a circle."}
+{"prompt": "Write a function to calculate the maximum aggregate from the list of tuples."}
+{"prompt": "Write a python function to find whether the given number is present in the infinite sequence or not."}
+{"prompt": "Write a python function to find minimum number swaps required to make two binary strings equal."}
+{"prompt": "Write a function to check whether the given month name contains 31 days or not."}
+{"prompt": "Write a function to group the 1st elements on the basis of 2nd elements in the given tuple list."}
+{"prompt": "Write a function to calculate the sum of perrin numbers."}
+{"prompt": "Write a function to sort counter by value."}
+{"prompt": "Write a python function to find the sum of fifth power of n natural numbers."}
+{"prompt": "Write a function to find the element count that occurs before the record in the given tuple."}
+{"prompt": "Write a function to find the first duplicate element in a given array of integers."}
+{"prompt": "Write a function to convert a roman numeral to an integer."}
+{"prompt": "Write a function to extract values between quotation marks of the given string by using regex."}
+{"prompt": "Write a function to find eulerian number a(n, m)."}
+{"prompt": "Write a function to find the maximum element of all the given tuple records."}
+{"prompt": "Write a function to find minimum number of coins that make a given value."}
+{"prompt": "Write a function to extract the elementwise and tuples from the given two tuples."}
+{"prompt": "Write a function to find the maximum sum of subsequences of given array with no adjacent elements."}
+{"prompt": "Write a python function to find the sum of the largest and smallest value in a given array."}
+{"prompt": "Write a function to find length of the string."}
+{"prompt": "Write a function to find the ration of negative numbers in an array of integers."}
+{"prompt": "Write a function to calculate wind chill index."}
+{"prompt": "Write a function to check for a number at the end of a string."}
+{"prompt": "Write a function that matches a word at the end of a string, with optional punctuation."}
+{"prompt": "Write a function to multiply the adjacent elements of the given tuple."}
+{"prompt": "Write a python function to convert the given string to upper case."}
+{"prompt": "Write a function to remove odd characters in a string."}
+{"prompt": "Write a function to extract maximum and minimum k elements in the given tuple."}
+{"prompt": "Write a function to find the minimum number of elements that should be removed such that amax-amin<=k."}
+{"prompt": "Write a function to find the perimeter of a rombus."}
+{"prompt": "Write a function to find the intersection of two arrays using lambda function."}
+{"prompt": "Write a function to assign with each element, its pair elements from other similar pairs in the given tuple."}
+{"prompt": "Write a function to find a path with the maximum average over all existing paths for the given square matrix of size n*n."}
+{"prompt": "Write a function to exchange the position of every n-th value with (n+1)th value and (n+1)th value with n-th value in a given list."}
+{"prompt": "Write a function to remove all the words with k length in the given string."}
+{"prompt": "Write a function to count coin change."}
+{"prompt": "Write a python function to calculate the product of all the numbers of a given tuple."}
+{"prompt": "Write a python function to find the sum of common divisors of two given numbers."}
+{"prompt": "Write a function to find palindromes in a given list of strings using lambda function."}
+{"prompt": "Write a function to find area of a sector."}
+{"prompt": "Write a python function to reverse an array upto a given position."}
+{"prompt": "Write a function to find the index of the last occurrence of a given number in a sorted array."}
+{"prompt": "Write a function to find the greatest common divisor (gcd) of two integers by using recursion."}
+{"prompt": "Write a function to sort a list of elements using pancake sort."}
+{"prompt": "Write a function to count character frequency of a given string."}
+{"prompt": "Write a function to zip the two given tuples."}
+{"prompt": "Write a function to perform the exponentiation of the given two tuples."}
+{"prompt": "Write a function to find the most common elements and their counts of a specified text."}
+{"prompt": "Write a python function to find the item with maximum occurrences in a given list."}
+{"prompt": "Write a function to sum a specific column of a list in a given list of lists."}
+{"prompt": "Write a python function to check whether two given lines are parallel or not."}
+{"prompt": "Write a function to find nth polite number."}
+{"prompt": "Write a function to re-arrange the given tuples based on the given ordered list."}
+{"prompt": "Write a python function to find the cube sum of first n even natural numbers."}
+{"prompt": "Write a function to find the list of lists with minimum length."}
+{"prompt": "Write a python function to count number of substrings with the sum of digits equal to their length."}
+{"prompt": "Write a python function to convert a string to a list."}
+{"prompt": "Write a function to find the maximum profit earned from a maximum of k stock transactions"}
+{"prompt": "Write a function that matches a string that has an a followed by zero or one 'b'."}
+{"prompt": "Write a python function to check whether the given number can be represented as difference of two squares or not."}
+{"prompt": "Write a function to find the sum of first even and odd number of a given list."}
+{"prompt": "Write a function to check if the given tuples contain the k or not."}
+{"prompt": "Write a function to find the second smallest number in a list."}
+{"prompt": "Write a function to delete the smallest element from the given heap and then insert a new item."}
+{"prompt": "Write a python function to check whether the sum of divisors are same or not."}
+{"prompt": "Write a function to find the size of the given tuple."}
+{"prompt": "Write a function to check if the given number is woodball or not."}
+{"prompt": "Write a function to find t-nth term of arithemetic progression."}
+{"prompt": "Write a function to find the ascii value of a character."}
+{"prompt": "Write a function to swap two numbers."}
+{"prompt": "Write a function to find x and y that satisfies ax + by = n."}
+{"prompt": "Write a function to assign frequency to each tuple in the given tuple list."}
+{"prompt": "Write a function to find the number of subsequences having product smaller than k for the given non negative array."}
+{"prompt": "Write a function to add consecutive numbers of a given list."}
+{"prompt": "Write a python function to find the frequency of a number in a given array."}
+{"prompt": "Write a python function to get the position of rightmost set bit."}
+{"prompt": "Write a python function to find the first odd number in a given list of numbers."}
+{"prompt": "Write a function to concatenate all elements of the given list into a string."}
+{"prompt": "Write a function to find the lateral surface area of a cylinder."}
+{"prompt": "Write a python function to count the number of prime numbers less than a given non-negative number."}
+{"prompt": "Write a function to check if a nested list is a subset of another nested list."}
+{"prompt": "Write a function to check whether the given string is ending with only alphanumeric characters or not using regex."}
+{"prompt": "Write a function to find common index elements from three lists."}
+{"prompt": "Write a function to find the number of ways to partition a set of bell numbers."}
+{"prompt": "Write a python function to find the average of even numbers till a given even number."}
+{"prompt": "Write a function to sort the given array by using heap sort."}
+{"prompt": "Write a function to find the n-th number in newman conway sequence."}
+{"prompt": "Write a python function to find the largest product of the pair of adjacent elements from a given list of integers."}
+{"prompt": "Write a python function to check whether one root of the quadratic equation is twice of the other or not."}
+{"prompt": "Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order."}
+{"prompt": "Write a python function to find the count of rotations of a binary string with odd value."}
+{"prompt": "Write a function to extract values between quotation marks of a string."}
+{"prompt": "Write a function that matches a string that has an a followed by three 'b'."}
+{"prompt": "Write a function to count the number of sublists containing a particular element."}
+{"prompt": "Write a function to separate and print the numbers and their position of a given string."}
+{"prompt": "Write a python function to find the volume of a triangular prism."}
+{"prompt": "Write a function to check if there is a subset with sum divisible by m."}
+{"prompt": "Write a function to join the tuples if they have similar initial elements."}
+{"prompt": "Write a function to calculate a dog's age in dog's years."}
+{"prompt": "Write a python function to find lcm of two positive integers."}
+{"prompt": "Write a function to convert a given string to a tuple."}
+{"prompt": "Write a python function to add a minimum number such that the sum of array becomes even."}
+{"prompt": "Write a function to compute the sum of digits of each number of a given list."}
+{"prompt": "Write a python function to find the element that appears only once in a sorted array."}
+{"prompt": "Write a function to convert a list to a tuple."}
+{"prompt": "Write a function to find the n-th power of individual elements in a list using lambda function."}
+{"prompt": "Write a function to find the n\u2019th carol number."}
+{"prompt": "Write a function to sort dictionary items by tuple product of keys for the given dictionary with tuple keys."}
+{"prompt": "Write a function to sort a list in increasing order by the last element in each tuple from a given list of non-empty tuples."}
+{"prompt": "Write a python function to find the sum of an array."}
+{"prompt": "Write a function to find frequency count of list of lists."}
+{"prompt": "Write a function to find the occurrences of n most common words in a given text."}
+{"prompt": "Write a function to compute maximum product of three numbers of a given array of integers using heap queue algorithm."}
+{"prompt": "Write a function to convert polar coordinates to rectangular coordinates."}
+{"prompt": "Write a function to caluclate arc length of an angle."}
+{"prompt": "Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different."}
+{"prompt": "Write a function to search an element in the given array by using binary search."}
+{"prompt": "Write a python function to find the sum of non-repeated elements in a given array."}
+{"prompt": "Write a python function to find the sum of squares of first n odd natural numbers."}
+{"prompt": "Write a function to find k number of pairs which consist of one element from the first array and one element from the second array."}
+{"prompt": "Write a function that matches a string that has an a followed by two to three 'b'."}
+{"prompt": "Write a python function to reverse only the vowels of a given string."}
+{"prompt": "Write a function to convert radians to degrees."}
+{"prompt": "Write a function to extract specified number of elements from a given list, which follow each other continuously."}
+{"prompt": "Write a python function to find the last two digits in factorial of a given number."}
+{"prompt": "Write a function to find if the given number is a keith number or not."}
+{"prompt": "Write a function to find nth centered hexagonal number."}
+{"prompt": "Write a function to find the lateral surface area of a cube."}
+{"prompt": "Write a function to find average value of the numbers in a given tuple of tuples."}
+{"prompt": "Write a function to find the maximum sum we can make by dividing number in three parts recursively and summing them up together for the given number."}
+{"prompt": "Write a function to determine if there is a subset of the given set with sum equal to the given sum."}
+{"prompt": "Write a python function to check whether the given array is monotonic or not."}
+{"prompt": "Write a python function to find the maximum of two numbers."}
+{"prompt": "Write a function to find the ascii value of total characters in a string."}
+{"prompt": "Write a function to find all anagrams of a string in a given list of strings using lambda function."}
+{"prompt": "Write a function to count repeated items of a tuple."}
+{"prompt": "Write a python function to shift last element to first position in the given list."}
+{"prompt": "Write a function to find common elements in given nested lists. * list item * list item * list item * list item"}
+{"prompt": "Write a python function to find the largest prime factor of a given number."}
+{"prompt": "Write a python function to check if roots of a quadratic equation are reciprocal of each other or not."}
+{"prompt": "Write a function that gives loss amount if the given amount has loss else return none."}
+{"prompt": "Write a python function to convert decimal number to octal number."}
+{"prompt": "Write a python function to find the difference between highest and least frequencies in a given array."}
+{"prompt": "Write a function to find the list in a list of lists whose sum of elements is the highest."}
+{"prompt": "Write a python function to find the minimum number of swaps required to convert one binary string to another."}
+{"prompt": "Write a function to find three closest elements from three sorted arrays."}
+{"prompt": "Write a function to find the maximum value in record list as tuple attribute in the given tuple list."}
+{"prompt": "Write a function to remove everything except alphanumeric characters from a string."}
+{"prompt": "Write a function to calculate the standard deviation."}
+{"prompt": "Write a function to convert tuple to a string."}
+{"prompt": "Write a function that matches a word at the beginning of a string."}
+{"prompt": "Write a function to reflect the modified run-length encoding from a list."}
+{"prompt": "Write a function to check if a url is valid or not using regex."}
+{"prompt": "Write a function to find the combinations of sums with tuples in the given tuple list."}
+{"prompt": "Write a python function to minimize the length of the string by removing occurrence of only one character."}
+{"prompt": "Write a function to find the length of the longest increasing subsequence of the given sequence."}
+{"prompt": "Write a function to find t-nth term of geometric series."}
+{"prompt": "Write a python function to find the next perfect square greater than a given number."}
+{"prompt": "Write a python function to count the number of distinct power of prime factor of given number."}
+{"prompt": "Write a function to count bidirectional tuple pairs."}
+{"prompt": "Write a python function to count the number of squares in a rectangle."}
+{"prompt": "Write a function to check if given tuple is distinct or not."}
+{"prompt": "Write a python function to find the character made by adding all the characters of the given string."}
+{"prompt": "Write function to find the sum of all items in the given dictionary."}
+{"prompt": "Write a python function to find the first maximum length of even word."}
+{"prompt": "Write a function to solve tiling problem."}
+{"prompt": "Write a function to find frequency of the elements in a given list of lists using collections module."}
